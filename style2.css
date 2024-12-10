@@ -1,0 +1,31 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+div{
+    width:100px;
+    height:100px;
+    background-color: aqua;
+    border: 2px solid black ;
+    display:inline-block;
+    margin-left:10px;
+}
+#box1{
+    position:static;
+    top:50px;
+    /* top wont work since position is static */
+}
+#box2{
+    position:relative;
+    top:50px;
+}
+/* #box3{ 
+    position: fixed; 
+    right:10px;
+    top:20px;
+    background-color:green;
+} */
+#box3{
+    position: sticky;
+    top:20px;
+}
